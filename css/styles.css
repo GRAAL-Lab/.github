@@ -515,3 +515,38 @@
         max-width: 100%;
       }
     }
+
+.final-info {
+  border-top: 1px solid rgba(110, 231, 255, 0.08);
+  padding-top: 3rem;
+}
+
+.final-info-inner {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.final-info-text {
+  color: var(--muted);
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+}
+
+.final-info-link {
+  display: inline-block;
+  padding: 0.9rem 1.4rem;
+  border-radius: 999px;
+  font-weight: 600;
+  color: var(--accent-soft);
+  border: 1px solid rgba(110, 231, 255, 0.2);
+  background: rgba(61, 217, 255, 0.06);
+  transition: 180ms ease;
+}
+
+.final-info-link:hover {
+  color: #fff;
+  background: rgba(61, 217, 255, 0.12);
+  border-color: rgba(110, 231, 255, 0.4);
+  transform: translateY(-1px);
+}
