@@ -311,7 +311,21 @@ body.dark-theme .topbar {
   color: var(--text);
   border-color: rgba(110, 231, 255, 0.12);
   background: rgba(110, 231, 255, 0.04);
+  transform: translateY(-1px);
 }
+
+body:not(.dark-theme) .nav a:hover {
+  color: var(--accent-deep); /* darker cyan, readable on white */
+  background: rgba(43, 187, 216, 0.10);
+  border-color: rgba(43, 187, 216, 0.25);
+}
+
+body.dark-theme .nav a:hover {
+  color: #ffffff;
+  background: rgba(110, 231, 255, 0.08);
+  border-color: rgba(110, 231, 255, 0.25);
+}
+
 
 @media (max-width: 760px) {
   .menu-toggle {
