@@ -9,7 +9,7 @@
   --muted: #5f7f8a;
 
   --accent: #2bbbd8;
-  --accent-soft: #6fd3e6;
+  --accent-soft: #007f97;
   --accent-deep: #1f8ea3;
 
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
@@ -408,7 +408,7 @@ h1 {
 }
 
 .ring {
-  border: 1px solid rgba(110, 231, 255, 0.16);
+  border: 1px solid rgba(37, 131, 149, 0.16);
   box-shadow: inset 0 0 25px rgba(61, 217, 255, 0.03);
 }
 
