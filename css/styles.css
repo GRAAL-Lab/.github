@@ -675,9 +675,19 @@ h1 {
   font-weight: 600;
 }
 
+/* base */
 .card-link:hover {
-  color: #ffffff;
   transform: translateX(2px);
+}
+
+/* light mode */
+body:not(.dark-theme) .card-link:hover {
+  color: var(--accent-deep);
+}
+
+/* dark mode */
+body.dark-theme .card-link:hover {
+  color: #ffffff;
 }
 
 .pill-list {
@@ -776,10 +786,21 @@ h1 {
 }
 
 .final-info-link:hover {
-  color: #fff;
+  transform: translateY(-1px);
+}
+
+/* light mode */
+body:not(.dark-theme) .final-info-link:hover {
+  color: var(--accent-deep);
+  background: rgba(43, 187, 216, 0.12);
+  border-color: rgba(43, 187, 216, 0.35);
+}
+
+/* dark mode */
+body.dark-theme .final-info-link:hover {
+  color: #ffffff;
   background: rgba(61, 217, 255, 0.12);
   border-color: rgba(110, 231, 255, 0.4);
-  transform: translateY(-1px);
 }
 
 /* sonar interaction layer */
