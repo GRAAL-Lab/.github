@@ -36,5 +36,5 @@ To modify styling:
 
 ## Deployment
 
-Works out-of-the-box with **GitHub Pages**:
+Works out-of-the-box with **GitHub Pages**.
 
