@@ -61,6 +61,14 @@ body {
   transition: background 220ms ease, color 220ms ease;
 }
 
+h1,
+h2,
+h3,
+.brand-text > span,
+.card-tag {
+  font-family: "Roboto Slab", Georgia, serif;
+}
+
 h1, h2, h3 {
   font-weight: 700;
   letter-spacing: -0.02em;
