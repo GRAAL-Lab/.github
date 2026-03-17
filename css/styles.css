@@ -550,3 +550,40 @@
   border-color: rgba(110, 231, 255, 0.4);
   transform: translateY(-1px);
 }
+
+/* sonar interaction layer */
+.sonar {
+  position: relative;
+  cursor: crosshair;
+}
+
+.ping {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  pointer-events: none;
+  background: radial-gradient(circle, #ffffff 0%, var(--accent-soft) 40%, transparent 70%);
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.6);
+}
+
+.ping.active {
+  animation: ping-fade 1.2s ease-out forwards;
+}
+
+@keyframes ping-fade {
+  0% {
+    opacity: 0.9;
+    transform: translate(-50%, -50%) scale(0.6);
+    box-shadow: 0 0 12px rgba(61, 217, 255, 0.6);
+  }
+  60% {
+    opacity: 0.5;
+    transform: translate(-50%, -50%) scale(1.8);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(2.5);
+  }
+}
