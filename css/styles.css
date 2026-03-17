@@ -175,8 +175,18 @@ a {
   top: 0;
   z-index: 50;
   backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+  transition: background 200ms ease;
+}
+
+/* LIGHT MODE */
+body:not(.dark-theme) .topbar {
   background: rgba(255, 255, 255, 0.7);
-  border-bottom: 1px solid rgba(110, 231, 255, 0.1);
+}
+
+/* DARK MODE */
+body.dark-theme .topbar {
+  background: rgba(4, 16, 23, 0.75);
 }
 
 .topbar-inner {
