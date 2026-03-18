@@ -170,24 +170,11 @@ body::before {
 
 /* ☀️ sun */
 .icon.sun {
-  position: relative;
-  width: 24px;
-  height: 24px;
   border-radius: 50%;
-  background: var(--accent);
-}
-
-/* Rays */
-.icon.sun::before {
-  content: "";
-  position: absolute;
-  inset: -6px;
-  border-radius: 50%;
-  background: repeating-conic-gradient(
-    var(--accent) 0deg 10deg,
-    transparent 10deg 30deg
-  );
-  mask: radial-gradient(circle, transparent 45%, black 46%);
+  background: #ffb347;
+  box-shadow:
+    0 0 0 4px rgba(255, 180, 70, 0.15),
+    0 0 20px rgba(255, 180, 70, 0.1);
 }
 
 /* 🌙 moon */
