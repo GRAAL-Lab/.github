@@ -171,10 +171,36 @@ body::before {
 /* ☀️ sun */
 .icon.sun {
   border-radius: 50%;
-  background: var(--accent);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+
+  /* core */
+  background: radial-gradient(circle, #fff 0%, var(--accent) 60%, var(--accent-deep) 100%);
+
+  /* soft glow */
   box-shadow:
-    0 0 0 4px rgba(43, 187, 216, 0.15),
+    0 0 10px rgba(43, 187, 216, 0.4),
     0 0 20px rgba(43, 187, 216, 0.25);
+}
+
+/* rays */
+.icon.sun::before {
+  content: "";
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+
+  background:
+    repeating-conic-gradient(
+      rgba(43, 187, 216, 0.6) 0deg 8deg,
+      transparent 8deg 22deg
+    );
+
+  mask: radial-gradient(circle, transparent 55%, black 56%);
+  -webkit-mask: radial-gradient(circle, transparent 55%, black 56%);
+
+  opacity: 0.7;
 }
 
 /* 🌙 moon */
