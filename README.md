@@ -1,8 +1,8 @@
 # GRAAL Lab. – Repositories Website
 
-This repository contains a minimal static webpage used as a landing hub for the GRAAL Lab. GitHub organization.
+This repository contains a minimal static webpage used as a landing hub for the GRAAL Laboratory GitHub organization.
 
-Website link: https://graal-lab.github.io/.github/.
+Link: https://graal-lab.github.io/.github/.
 
 ## Structure
 
