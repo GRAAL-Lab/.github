@@ -1,3 +1,5 @@
+![Proof HTML](https://github.com/GRAAL-Lab/demo-repository/actions/workflows/proof-html.yml/badge.svg)
+
 # GRAAL Lab. – Repositories Website
 
 This repository contains a minimal static webpage used as a landing hub for the GRAAL Laboratory GitHub organization.
