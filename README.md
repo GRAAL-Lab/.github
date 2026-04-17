@@ -19,7 +19,7 @@ These guidelines apply to all repositories under the **GRAAL Lab** GitHub organi
 
 ### Branch Naming
 
-All repositories use `main` as the default, production-ready branch. **Never push directly to `main`.**
+All repositories use `main` as the default, production-ready branch. **If you are the repository mantainer never push directly to `main`.**
 
 When contributing, create a dedicated branch using the following conventions:
 
