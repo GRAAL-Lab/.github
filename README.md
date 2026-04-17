@@ -1,8 +1,8 @@
 ![Proof HTML](https://github.com/GRAAL-Lab/demo-repository/actions/workflows/proof-html.yml/badge.svg)
 
-# GRAAL Lab. – Repositories Website
+# GRAAL Lab – Repositories Website
 
-This is the GRAAL Lab. GitHub organization. Here is a curated entry point for our repos: https://graal-lab.github.io/.github/.
+This is the GRAAL Lab GitHub organization. Here is a curated entry point for our repos: https://graal-lab.github.io/.github/.
 
 Below you can find the contributing guidelines.
 
